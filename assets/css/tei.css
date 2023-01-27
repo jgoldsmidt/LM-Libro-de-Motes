@@ -12,5 +12,15 @@ tei-lg {
     display: block;
     margin-top: .5em;
     margin-bottom: .5em;
-    color: red;
+    margin-left: .5em;
+    padding-left: .100em;
+    align-self: center;
+}
+
+tei-l {
+    display: block;
+}
+
+tei-head {
+    font-weight: bold;
 }
