@@ -1,86 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/assets/css/tei.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <div class="card" style="width: 18rem;">
-        <img src="assets/img/testimage.jpg" class="card-img-top" alt="Test Image">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-
-
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-    <script src="assets/js/CETEI.js"></script>
-    <script>
-        let c = new CETEI();
-        let behaviors = {
-            "tei": {
-                "head": function(e) {
-                    let level = document.evaluate("count(ancestor::tei-div)", e, null, XPathResult.NUMBER_TYPE, null);
-                    let result = document.createElement("h" + (level.numberValue < 7 ? level.numberValue : 6));
-                    for (let n of Array.from(e.childNodes)) {
-                        result.appendChild(n.cloneNode());
-                    }
-                    return result;
-                },
-                // Turn notes into endnotes
-                "note": function(e) {
-                    if (!this.noteIndex) {
-                        this["noteIndex"] = 1;
-                    } else {
-                        this.noteIndex++;
-                    }
-                    let id = "note" + this.noteIndex;
-                    let link = document.createElement("a");
-                    link.setAttribute("id", "src" + id);
-                    link.setAttribute("href", "#" + id);
-                    link.innerHTML = this.noteIndex;
-                    let content = document.createElement("sup");
-                    if (e.previousSibling.localName == "tei-note") {
-                        content.appendChild(document.createTextNode(","));
-                    }
-                    content.appendChild(link);
-                    let notes = this.dom.querySelector("ol.notes");
-                    if (!notes) {
-                        notes = document.createElement("ol");
-                        notes.setAttribute("class", "notes");
-                        this.dom.appendChild(notes);
-                    }
-                    let note = document.createElement("li");
-                    note.id = id;
-                    note.innerHTML = "<a href=\"#src" + id + "\">^</a> " + e.innerHTML
-                    notes.appendChild(note);
-                    return content;
-                },
-                "placeName": [
-                    ["[ref]", ["<a href=\"$rw@ref\" target=\"_blank\">", "</a>"]]
-                ],
-                "persName": [
-                    ["[ref]", ["<a href=\"$rw@ref\" target=\"_blank\">", "</a>"]]
-                ],
-                "rs": [
-                    ["[ref]", ["<a href=\"$rw@ref\" target=\"_blank\">", "</a>"]]
-                ]
-            }
-        };
-        c.addBehaviors(behaviors);
-        c.getHTML5('tei/MoteB5.xml', function(data) {
-            document.getElementsByTagName('body')[0].appendChild(data);
-        });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Document</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-dark-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Libro de Motes de Damas y Caballeros</a>
+            <button class="navbar-toggler bg-black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 ms-4 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Info</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Seleccionar
+                </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Corpus</a></li>
+                            <li><a class="dropdown-item" href="#">Edición</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Publicaciones</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">
+                          Contáctanos
+                        </button>
+                        <form class="dropdown-menu p-3">
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@ejemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormPassword2" class="form-label">Nombre</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                        </form>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/home2.png" class="d-block w-100" alt="Home2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/home3.png" class="d-block w-100" alt="Home3">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/home4.png" class="d-block w-100" alt="Home4">
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        2023 HD LAB. ISSN 1668-0001. CC BY 4.0
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

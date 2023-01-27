@@ -9,5 +9,8 @@ tei-p {
 }
 
 tei-lg {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
     color: red;
 }
