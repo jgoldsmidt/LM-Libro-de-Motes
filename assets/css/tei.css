@@ -1,5 +1,9 @@
 tei-div {
     display: block;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
 }
 
 tei-p {
@@ -12,7 +16,7 @@ tei-lg {
     display: block;
     margin-top: .5em;
     margin-bottom: .5em;
-    margin-left: .5em;
+    margin-left: 40vw;
     padding-left: .100em;
     align-self: center;
 }
@@ -23,4 +27,5 @@ tei-l {
 
 tei-head {
     font-weight: bold;
+    margin-block-start: 25em;
 }

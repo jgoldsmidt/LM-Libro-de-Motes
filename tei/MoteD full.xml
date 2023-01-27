@@ -28,6 +28,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 	</teiHeader>
 	<text>
 		<body>
+		<div>
 			<lg n="1" type="poema" corresp="dama" met="3x8" rhyme="abb" >
 				<head>/D/</head>
 				<l n="1">Y’os mando que toquéis palmas,  </l>
@@ -53,7 +54,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 				<l n="3">más sospiros sacaréis </l>
 				<l n="3">que los que vos me pedís.</l>
 			</lg> 
-
+		</div>
 
 
 
