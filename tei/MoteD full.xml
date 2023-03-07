@@ -54,6 +54,34 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 				<l n="3">más sospiros sacaréis </l>
 				<l n="3">que los que vos me pedís.</l>
 			</lg> 
+			<lg n="1" type="poema" corresp="dama" met="3x7" rhyme="abb" >
+				<head>/Diii/</head>
+				<l n="1">Sospirad un gran sospiro </l> 
+				<l n="2">daquellos que vos soléis </l>
+				<l n="3">quando menos mal tenéis.</l>
+			</lg>
+
+			<lg n="2" type="poema" corresp="caballero" met="4x7" rhyme="abba" >
+				<l n="1">Con las burlas que dezís,  </l>
+				<l n="2">del mal que me hacéis </l>
+				<l n="3">más sospiros sacaréis </l>
+				<l n="3">que los que vos me pedís.</l>
+			</lg> 
+			<head>
+				/Diiii/
+			</head>
+			<lg n="1" type="poema" corresp="dama" met="3x7" rhyme="abb" >
+				<l n="1">Sospirad un gran sospiro </l> 
+				<l n="2">daquellos que vos soléis </l>
+				<l n="3">quando menos mal tenéis.</l>
+			</lg>
+
+			<lg n="2" type="poema" corresp="caballero" met="4x7" rhyme="abba" >
+				<l n="1">Con las burlas que dezís,  </l>
+				<l n="2">del mal que me hacéis </l>
+				<l n="3">más sospiros sacaréis </l>
+				<l n="3">que los que vos me pedís.</l>
+			</lg> 
 		</div>
 
 
