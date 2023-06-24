@@ -89,7 +89,17 @@
             <a class="nav-link bg-dark-subtle" href="#">Mote F</a>
         </li>
     </ul>
-    {% include test.html %}
+
+    <body>
+        <script src="assets/js/CETEI.js"></script>
+        <script>
+            let c = new CETEI();
+            c.getHTML5('tei/MoteB.xml', function(data) {
+                document.getElementsByTagName("body")[0].appendChild(data);
+            });
+        </script>
+    </body>
+
     <!--<script src="assets/js/CETEI.js"></script>
     <script>
         let c = new CETEI();
