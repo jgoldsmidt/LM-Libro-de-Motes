@@ -5,15 +5,21 @@ layout: base
 <div class="post">
   <article class="post-content fullwidth">
     <h2 style="text-align: center;">{{page.title}}</h2>
-    <img src="/facsimiles/{{page.title}}D.png" alt="{{page.title}} Dama"></img>
+    <div class="post.two-columns">
+    <div class="post-content" >
+        
+    <img src="/facsimiles/{{page.title}}D.png" alt="{{page.title}} Dama" width="200px"></img>
     <audio controls>
         <source src="/assets/audio/{{page.title}}D.mp3" type="audio/mpeg">
     </audio>
-    <img src="/facsimiles/{{page.title}}C.png" alt="{{page.title}} Caballero"></img>
+    </div>
+    <div class="post-content">
+        <img src="/facsimiles/{{page.title}}C.png" alt="{{page.title}} Caballero" width="200px"></img>
     <audio controls>
         <source src="/assets/audio/{{page.title}}C.mp3" type="audio/mpeg">
     </audio>
+    </div>  
+</div>  
     {{ content }}
-  </article>
-
+    </article>
 </div>
