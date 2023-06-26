@@ -1,0 +1,10 @@
+        
+        
+        <link rel="stylesheet" href="/assets/css/tei.css">
+       <script src="/assets/js/CETEI.js"></script>
+        <script>
+            let c = new CETEI();
+            c.getHTML5('/tei/{{page.title}}.xml', function(data) {
+                document.getElementsByTagName("body")[0].appendChild(data);
+            });
+        </script>

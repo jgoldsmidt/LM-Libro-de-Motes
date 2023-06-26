@@ -1,0 +1,25 @@
+tei-div {
+    display: block;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  tei-l {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+  tei-title {
+    font-weight: bold;
+    margin-left:45vw; 
+    margin-bottom: 1em;
+  }
+  tei-lg {
+    display: block;
+    margin-left: 45vw;
+    margin-bottom: 40px;
+  }
+  tei-p{
+    display: block;
+    margin-left: 45vw;
+    margin-bottom: 40px;
+  }

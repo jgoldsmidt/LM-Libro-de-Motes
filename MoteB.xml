@@ -16,7 +16,7 @@ compuesto por don Luis Milán. Dirigido a las damas</title>
 				</respStmt>
  			</titleStmt>
  			<publicationStmt>
- 				<publisher>HD LAB (CAICYT, CONICET)</publisher>
+ 				<publisher>HD LAB (CONICET)</publisher>
  			</publicationStmt>
  			<sourceDesc>
 				<bibl>
@@ -29,29 +29,20 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 	<text>
 		<body>
 			<head>
-				<title>/Bii/</title>
+				<title>[/Bfunciona/] </title>
 			</head>
-
-			<!--[Falta la parte de la dama]-->
-
-			<lg n="1" type="poema" corresp="caballero" met="5x8" rhyme="abaab" >
-				<l n="1">Pues queréis que yo lo diga,</l> 
-				<l n="2">yo haré vuestro mandado, </l>
-				<l n="3">pero siento gran fatiga</l>
-				<l n="2">que muriendo por mi amiga</l>
-				<l n="3">no paresca enamorado.</l>
+			<div>
+			<lg n="1" type="poema" corresp="dama" met="4x8" rhyme="abba">
+				<l n="1">Alçad los ojos al cielo</l>
+				<l n="2">sospirando si podéis,</l>
+				<l n="3">que muy presto alcançaréis</l>
+				<l n="4">tanto cuanto monta un pelo.</l>
 			</lg>
-			
+
+		<p>[falta la parte del caballero]
+		</p>
+
+			</div>
 		</body>
 	</text>
 </TEI>
-
-
-
-
-
-
- 
-
-
-

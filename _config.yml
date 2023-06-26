@@ -1,34 +1,30 @@
 # Site Settings
 name: Libro de Motes
-title: Libro de Motes 
-description: Poesía Medieval
+title: Libro de Motes de Damas y Caballeros
+description: Edición digital del Libro de motes de damas y cavalleros. Intitulado El juego de mandar. Compuesto por don Luis Milán
 tags:
-  - poesía
-  - medieval
-  - motes
-  - humanidades
-  - digitales
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
 show_hero: true
 menu:
-  - title: Home
+  - title: Inicio
     url: /
-  - title: Edición
-    url: /about
+  - title: Acerca de...
+    url: /acerca
+  - title: Edición Digital
+    url: /edicion-digital
+  - title: Edición fascimilar
+    url: /edicion-fascimilar
   - title: Contacto
-    url: /contact
-  - title: Info
-    url: /feed.xml
+    url: /contacto
 email: julieta.gold@gmail.com
-# See: https://disqus.com/
-disqus_username: disqus_username
-# Contact Form Setting
-# See: https://formspree.io/
-formspree_form_id: formspree_form_id
-
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
+github_username: jgoldsmidt
 facebook_username: facebook_username
 twitter_username: twitter_username
 instagram_username: instagram_username
@@ -44,10 +40,10 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "LM-Libro-de-Motes" # the subpath of your site, e.g. /blog
-url: "https://jgoldsmidt.github.io" # the base hostname & protocol for your site
+baseurl: "LM-Libro-de-Motes" 
+url: "jgoldsmidt.github.io"
 google_analytics: "UA-XXXXXXXX-X"
-language: "es"
+language: "sp"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
