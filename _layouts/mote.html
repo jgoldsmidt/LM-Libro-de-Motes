@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div class="post">
+  <article class="post-content fullwidth">
+    <h2 style="text-align: center;">{{page.title}}</h2>
+    <img src="/facsimiles/{{page.title}}D.png" alt="{{page.title}} Dama"></img>
+    <audio controls>
+        <source src="/assets/audio/{{page.title}}D.mp3" type="audio/mpeg">
+    </audio>
+    <img src="/facsimiles/{{page.title}}C.png" alt="{{page.title}} Caballero"></img>
+    <audio controls>
+        <source src="/assets/audio/{{page.title}}C.mp3" type="audio/mpeg">
+    </audio>
+    {{ content }}
+  </article>
+
+</div>
