@@ -31,14 +31,12 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 			<head>
 				<title>/Biiii/</title>
 			</head>
-			<sp>
-			<speaker xml:id="dama">Dama</speaker>
+			<div>
 			<lg n="1" type="poema" met="3x8 o 3x7' " rhyme="abb" >
 				<l n="1">Buscaréis por estas damas</l> 
 				<l n="2">y dezilde, si, ay, Merina!:</l>
 				<l n="3">yo la mar, vos la marina.</l>
 			</lg>
-			</sp>
 			<lg n="2" type="poema" corresp="caballero" met="irr" rhyme="aabba" >
 				<l n="1">Merina:</l>
 				<l n="2">Yo la mar, d’ amar muy dina,</l>
@@ -46,6 +44,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 				<l n="4">como hombre ahogado</l>
 				<l n="5">de la mar a la marina.</l>
 			</lg> 
+			</div>
 
 		</body>
 	</text>

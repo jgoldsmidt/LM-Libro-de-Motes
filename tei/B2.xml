@@ -32,7 +32,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 				<title>/Bii/</title>
 			</head>
 
-
+			<div>
 			<p>[Falta la parte de la dama]</p>
 
 			<lg n="1" type="poema" corresp="caballero" met="5x8" rhyme="abaab" >
@@ -42,6 +42,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 				<l n="2">que muriendo por mi amiga</l>
 				<l n="3">no paresca enamorado.</l>
 			</lg>
+			</div>
 			
 		</body>
 	</text>

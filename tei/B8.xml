@@ -29,14 +29,16 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 	<text>
 		<body>
 			<head>
-				<title>/Bv/</title>
+				<title>/Bviii/</title>
 			</head>
+			<div>
 			<lg n="1" type="poema" corresp="dama" met="3x8" rhyme="abb" >
 				<l n="1">Buscando entr’ estas damas</l> 
 				<l n="2">dezid, si Ursola huviere, </l>
 				<l n="3">quien os vio, ¿cómo no muere?</l>
 			</lg>
-			<!--[Falta la parte del caballero]-->
+			<p>[Falta la parte del caballero]</p>
+		</div>
 		</body>
 	</text>
 </TEI>

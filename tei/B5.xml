@@ -31,6 +31,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 			<head>
 				<title>/Bv/</title>
 			</head>
+			<div>
 			<lg n="1" type="poema" corresp="dama" met="3x7" rhyme="abb" >
 				<l n="1">Levantaos y dezid</l> 
 				<l n="2">un requiebro a la dama </l>
@@ -43,7 +44,7 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 				<l n="3">pues a vos soy embiado,</l>
 				<l n="3">sufridme lo que os dixere.</l>
 			</lg> 
-
+			</div>
 			
 
 

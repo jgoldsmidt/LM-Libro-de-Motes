@@ -31,13 +31,14 @@ compuesto por don Luis Milán.Dirigido a las damas</title></bibl>
 			<head>
 				<title>/C/</title>
 			</head>
-		<!--[Falta la parte de la dama]-->
+			<div>
+			<p> [Falta la parte de la dama] </p>
 			<lg n="2" type="poema" corresp="caballero" met="3x8" rhyme="abb" >
 				<l n="1">No será tirar de loco </l>
 				<l n="2">mas de cuerdo,</l>
 				<l n="3">si por vos el seso pierdo.</l>
 			</lg> 
-
+			</div>
 			
 
 
