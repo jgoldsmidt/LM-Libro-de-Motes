@@ -51,7 +51,7 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "/LM-Libro-de-Motes" 
+baseurl: "" 
 url: "http://jgoldsmidt.github.io"
 google_analytics: "UA-XXXXXXXX-X"
 language: "sp"
