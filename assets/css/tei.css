@@ -4,21 +4,33 @@ tei-div {
   }
   tei-l {
     display: block;
-    margin-top: .5em;
+    margin-top: .7em;
     margin-bottom: .5em;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   tei-title {
     font-weight: bold;
-    margin-left:45vw; 
+    margin-left:47vw; 
     margin-bottom: 1em;
+    margin-top: 1em;
+
   }
   tei-lg {
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    background: rgb(161, 152, 140);
+    display: block;
+    margin-bottom: 10px;
+    border-color: black;
+    border-width: medium;
+    border-radius: 3px;
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;
+}
   }
   tei-p{
     display: block;
     margin-left: 45vw;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }

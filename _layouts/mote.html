@@ -3,10 +3,9 @@ layout: base
 ---
 
 <div class="post">
-  <article class="post-content fullwidth">
-    {{% include mote-nav.html %}}
-    <h3 style="text-align: center;">{{page.title}}</h3>
-    <div class="post.two-columns" style="display: flex;">
+  <article class="post-content fullwidth" style="padding-top: 10; margin-bottom: 20;" >
+    {% include navigation.html %}
+    <div class="post.two-columns" style="display: flex; padding: 0;">
     <div class="post-content" >
     <img src="/facsimiles/{{page.title}}D.png" alt="{{page.title}} Dama"></img>
     <audio controls style="padding-left:200;">
@@ -15,14 +14,14 @@ layout: base
     </div>
     <div class="post-content">
         <img src="/facsimiles/{{page.title}}C.png" alt="{{page.title}} Caballero"></img>
-    <audio controls>
+    <audio controls style="float: right;">
         <source src="/assets/audio/{{page.title}}C.mp3" type="audio/mpeg">
     </audio>
     </div>  
 </div>  
     {{ content }}
     </article>
-   <!-- <a href=/tei/{{page.title}} class="get-theme" role="button" style="padding: 50vw;">
-        TEI
-    </a>-->
+    
+    <br>
+    <br>
 </div>

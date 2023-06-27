@@ -31,10 +31,10 @@
 
 .post-content {
   overflow-x: auto;
-  padding: rem(40px) 0;
+  padding: rem(2px) 0;
 
   &.fullwidth {
-    padding: rem(60px) rem(10px) 0;
+    padding: rem(10px) rem(10px) 0;
   }
 
   img {
@@ -166,7 +166,7 @@
   }
 
   a {
-    color: $themeColor;
+    color: $lightGray;
     text-decoration: none;
 
     &:hover {

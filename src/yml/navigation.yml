@@ -1,0 +1,61 @@
+mote:
+- title: B
+  url: /B
+  subpages:
+    - title: B
+      url: /B
+    - title: B2
+      url: /B2
+    - title: B3
+      url: /B3
+    - title: B4
+      url: /B4
+    - title: B5
+      url: /B5
+    - title: B6
+      url: /B6
+    - title: B7
+      url: /B7
+    - title: B8
+      url: /B8
+    - title: B9
+      url: /B9
+
+- title: C
+  subpages:
+    - title: C
+      url: /C
+    - title: C2
+      url: /C2
+    - title: C3
+      url: /C3
+    - title: C4
+      url: /C4
+    - title: C5
+      url: /C5
+    - title: C6
+      url: /C6
+    - title: C7
+      url: /C7
+    - title: C8
+      url: /C8
+
+      - title: D
+  subpages:
+    - title: D
+      url: /D
+    - title: D2
+      url: /D2
+    - title: D3
+      url: /D3
+    - title: D4
+      url: /D4
+    - title: D5
+      url: /D5
+    - title: D6
+      url: /D6
+    - title: D7
+      url: /D7
+    - title: D8
+      url: /D8
+

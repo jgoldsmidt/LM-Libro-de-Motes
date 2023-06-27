@@ -3,23 +3,34 @@ name: Libro de Motes
 title: Libro de Motes de Damas y Caballeros
 description: Edición digital del Libro de motes de damas y cavalleros. Intitulado El juego de mandar. Compuesto por don Luis Milán
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
 show_hero: true
 menu:
-  - title: Inicio
-    url: /
-  - title: Acerca de...
-    url: /acerca
-  - title: Edición Digital
-    url: /edicion-digital
-  - title: Edición fascimilar
-    url: /edicion-fascimilar
-  - title: Contacto
-    url: /contacto
+  - title: A
+    url: /A1
+  - title: B
+    url: /B1
+  - title: C
+    url: /C1
+  - title: D
+    url: /D1
+  - title: E
+    url: /E1
+  - title: F
+    url: /F1
+  - title: G
+    url: /G1
+  - title: H
+    url: /H1
+  - title: J
+    url: /J1
+  - title: K
+    url: /K1
+  - title: L
+    url: /L1
+  - title: M
+    url: /M1
+  - title: N
+    url: /N1
 email: julieta.gold@gmail.com
 
 # Social Media Settings
@@ -40,8 +51,8 @@ two_columns_layout: true
 
 
 # Advanced Settings
-baseurl: "LM-Libro-de-Motes" 
-url: "jgoldsmidt.github.io"
+baseurl: "/LM-Libro-de-Motes" 
+url: "http:://jgoldsmidt.github.io"
 google_analytics: "UA-XXXXXXXX-X"
 language: "sp"
 categories_folder: category
