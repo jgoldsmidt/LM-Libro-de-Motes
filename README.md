@@ -1,3 +1,12 @@
+# Subir localmente 
+En terminal ingresar:
+bundle exec jekyll serve --baseurl=""  
+
+En navegador ir a :
+http://127.0.0.1:4000/
+
+
+
 # Jekflix Template
 
 ![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
